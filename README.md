@@ -1,6 +1,6 @@
 Dessert Recipes website model.
 
-This is a small project and practice of HTML + CSS + JS coding, it is of personal use only, to showcase and track my progress as an independent developer.
+*This is a small project and practice of HTML + CSS + JS coding, it is of personal use only, to showcase and track my progress as an independent developer.*
 
 - On this small project, I simulated a website where users can publish their favorite deserts and see other users deserts posted on the webpage.
 
