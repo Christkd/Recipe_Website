@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecipeWebsite</title>
+    <link rel="stylesheet" type="text/css" href="recipe.css">
+    <link rel="icon" type="image/png" href="imgs/cake.png">
+    <link rel="icon" type="image/png" href="imgs/cookie.png">
+    <link rel="icon" type="image/png" href="imgs/ice-cream.png">
+    <link rel="icon" type="image/png" href="imgs/pie.png">
+    <link rel="icon" type="image/png" href="imgs/heart.png">
+</head>
+<body>
+    <div class="container"> 
+        <div class="topmenu">
+            <h1> Just<span>Dessert</span> </h1>
+            <div class="join"> <button id="buttonjoin" onclick="hide(this)">Join</button> </div>
+            <button id="buttonlogin" >Login</button>
+        </div>
+        <div class="iconmenu">
+            <div id="Top-search">
+                <form action="/process" method="post"></form>
+                <input type="text" name="search"  placeholder="  search"><button id="searchbutton" onclick="showmessage(value);" >Go</button>
+                <img class="Icons" src="imgs/cake.png" alt="cake">
+                <img class="Icons" src="imgs/cookie.png" alt="cookie">
+                <img class="Icons" src="imgs/ice-cream.png" alt="icecream">
+                <img class="Icons" src="imgs/pie.png" alt="pie">
+                <p>Cakes Cookies IceCream Pies </p>
+            </div>
+        </div>
+        <div class="recipecollumn">
+            <div id="recipeday"> <p><b>Recipe of the Day</b></p> </div>
+            <img id="orgtart" src="imgs/orange-tart.jpg" alt="Tart">
+            <div id="orgtxt"> <p>Orange Tea Jelly Tart<br> <a href=".">by: yuripiano</a></p></div>
+            <div class="heartfix">
+                <img onclick="add1()" id="like1" src="imgs/heart.png" alt="heart"><p id="like10">1</p>
+            </div>
+            <div id="fullrec"><p><a href=".">See Full Recipe</a></p></div>
+        </div>
+        <div class="sidebox">
+            <p><u><b>Recommended for you:</b></u></p>
+            <img id="macimg" src="imgs/macarons.jpg" alt="macarons">
+            <div id="mactxt"> <p>Macarons<br> <a href=".">by: EmillieW</a></p></div>
+            <div class="heartfix">
+                <img onclick="add2()" id="like2" src="imgs/heart.png" alt="heart"><p id="like20">1</p>
+            </div>
+            <img id="cremeimg" src="imgs/creme-brulee.jpg" alt="creme">
+            <div id="cremetxt"> <p>Crème Brûlée<br> <a href=".">by: MarisaG</a></p></div>
+            <div class="heartfix">
+                <img onclick="add3()" id="like3" src="imgs/heart.png" alt="heart"><p id="like30">1</p> 
+            </div>
+        </div>
+    </div>
+    <script src="recipe.js"></script>
+</body>
+</html>

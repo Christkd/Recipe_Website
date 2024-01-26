@@ -1,0 +1,237 @@
+/*Start of coding*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: sans-serif;
+    background-color: #f3f3f3;
+}
+
+h1 {
+    color:white
+
+}
+
+h1 span{
+    color: chocolate;
+}
+
+.join{
+    padding-left: 570px;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+/*Start of Top Menu Box*/
+
+.topmenu{
+    background-color:rgb(41, 40, 40);
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+#buttonlogin {
+    height: 40px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color:rgb(11, 63, 114);
+    border: 3px solid black;
+    box-shadow: 3px 3px rgba(0,0,0,.8);
+}
+
+#buttonjoin{
+    height: 40px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color:chocolate;
+    border: 3px solid black;
+    box-shadow: 3px 3px rgba(0,0,0,.8);
+    cursor:pointer;
+}
+
+/*End of Top Menu Box*/
+
+/*Start of Icons Menu Box*/
+
+.iconmenu{
+    background-color:bisque;
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+#Top-search input{
+    height: 30px;
+    width: 250px;
+    font-size: 20px;
+    border: 3px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    }
+
+    .iconmenu p{
+        text-align:center;
+        word-spacing: 105px;
+        padding-left:290px;
+        padding-bottom: 20px;
+    }
+
+#searchbutton{
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+background-color: rgb(25, 87, 220);
+border-color:rgb(25, 87, 220);
+color: white;
+height: 36px;
+width: 35px;
+padding-top: 3px;
+cursor: pointer;
+font-size: 15px;
+}
+
+.Icons{
+    background: #ffffff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 20px;
+    margin: 25px;
+}
+
+
+/*End of Icons Menu Box*/
+
+/*Start of Left recipe image Box*/
+
+.recipecollumn{
+    background-color:rgb(234, 234, 232);
+    height: 570px;
+    width: 650px;
+    margin-top: 25px;
+}
+
+#recipeday{
+    color: rgb(25, 36, 137);
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+    padding-right:10px;
+}
+
+#orgtart{
+    width: 600px;
+    height: 380px;
+    padding-left: 25px;
+    padding-top: 20px ;
+}
+
+#orgtxt{
+    padding-left: 25px;
+    font-size: 20px;
+    padding-top: -80px;
+}
+
+#fullrec{
+    text-align: center;
+    font-size: 18px;
+    padding-right:30px;
+}
+
+#like1{
+    width: 30px;
+    height: 30px;
+    padding-left:580px;
+    cursor: pointer;
+}
+
+
+/*End of Left recipe image Box*/
+
+/*Start of Right recipe image Box*/
+
+
+.heartfix{
+    display: flex;
+    align-items: center;
+}
+
+.sidebox{
+    background-color:#f3f3f3;
+    height: 400px;
+    width: 270px;
+    padding: 30px;
+    margin-left: 670px;
+    margin-top: -590px;
+    
+
+}
+
+#macimg{
+    height: 150px;
+    width: 330px;
+    padding-left: -60px;
+    margin-top:20px;
+    margin-left: -30px;
+}
+
+.sidebox p u b {
+    font-size: 24px;
+    margin-left: -30px;
+
+}
+#mactxt{
+    margin-left: -30px;
+    font-size: 20px;
+    padding-top: -80px;
+    margin-top: 10px;
+}
+
+#like2{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    padding-left: 240px;
+}
+#cremetxt{
+    margin-left: -30px;
+    font-size: 20px;
+    padding-top: -80px;
+    margin-top: 10px;
+}
+
+#cremeimg{
+    height: 150px;
+    width: 330px;
+    padding-left: -60px;
+    margin-left: -30px;
+}
+
+#like3{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    padding-left: 240px;
+}
+
+/*End of Right recipe image Box*/
+
+/*End of Coding*/
